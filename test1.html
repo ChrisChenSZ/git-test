@@ -5,28 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<div>mac上传的</div>
-<div id="test">mac上再上传的</div>
+<div>issus2</div>
+<div>issus3</div>
 </body>
-<script>
-  function once (fn) {
-    let called = true
-    return function () {
-      if (called) {
-        called = false
-        setTimeout(() => {
-          called = true
-          console.log(11111);
-        },1000)
-      }
-    }
-  }
-  function a() {
-    console.log(111);
-  }
-   let b = once()
-    document.getElementById('test').addEventListener('click', function () {
-      b()
-    })
-</script>
 </html>
